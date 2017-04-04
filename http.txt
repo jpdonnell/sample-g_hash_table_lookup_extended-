@@ -1,0 +1,64 @@
+DEBUG output created by Wget 1.18 on linux-gnu.
+
+Reading HSTS entries from /home/jpd/.wget-hsts
+URI encoding = ‘UTF-8’
+Converted file name 'index.html' (UTF-8) -> 'index.html' (UTF-8)
+--2017-04-04 12:45:59--  http://www.cnn.com/
+Resolving www.cnn.com (www.cnn.com)... 151.101.0.73, 151.101.192.73, 151.101.64.73, ...
+Caching www.cnn.com => 151.101.0.73 151.101.192.73 151.101.64.73 151.101.128.73
+Connecting to www.cnn.com (www.cnn.com)|151.101.0.73|:80... connected.
+Created socket 4.
+Releasing 0x0000564fb1d022a0 (new refcount 1).
+
+---request begin---
+GET / HTTP/1.1
+User-Agent: Wget/1.18 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: www.cnn.com
+Connection: Keep-Alive
+
+---request end---
+HTTP request sent, awaiting response... 
+---response begin---
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+cache-control: max-age=60
+content-security-policy: default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' blob: *; font-src 'self' data: *; connect-src 'self' *;
+Content-Type: text/html; charset=utf-8
+x-content-type-options: nosniff
+x-servedByHost: ::ffff:10.61.3.245
+x-xss-protection: 1; mode=block
+Via: 1.1 varnish
+Fastly-Debug-Digest: 46be59e687681f2cbdc5286ab50024ed035dc360065b1aec7ce355bf418daeb9
+Content-Length: 129560
+Accept-Ranges: bytes
+Date: Tue, 04 Apr 2017 17:45:59 GMT
+Via: 1.1 varnish
+Age: 279
+Connection: keep-alive
+Set-Cookie: countryCode=US; Domain=.cnn.com; Path=/
+Set-Cookie: geoData=Montgomery|TX|77356|US|NA; Domain=.cnn.com; Path=/
+X-Served-By: cache-iad2124-IAD, cache-dfw1828-DFW
+X-Cache: HIT, HIT
+X-Cache-Hits: 2, 76
+X-Timer: S1491327959.517257,VS0,VE0
+Vary: Accept-Encoding
+
+---response end---
+200 OK
+cdm: 1
+Stored cookie cnn.com -1 (ANY) / <session> <insecure> [expiry none] countryCode US
+cdm: 1
+Stored cookie cnn.com -1 (ANY) / <session> <insecure> [expiry none] geoData Montgomery|TX|77356|US|NA
+Registered socket 4 for persistent reuse.
+URI content encoding = ‘utf-8’
+Length: 129560 (127K) [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .......... .......... .......... .......... 39%  419K 0s
+    50K .......... .......... .......... .......... .......... 79% 2.65M 0s
+   100K .......... .......... ......                          100%  963K=0.2s
+
+2017-04-04 12:45:59 (765 KB/s) - ‘index.html’ saved [129560/129560]
+
